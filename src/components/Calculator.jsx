@@ -42,7 +42,7 @@ const Calculator = () => {
                     <label className="form-label" htmlFor="result">
                         Result
                     </label>
-                    <input className="form-input" type="number" id="result" value={result}/>
+                    <input className="form-input" type="number" id="result" value={result} readOnly/>
                 </div>
             </div>
         </div>
